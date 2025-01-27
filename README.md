@@ -19,9 +19,9 @@ Vera can handle the following commands:
 - **Exit**: Say "Exit" to terminate the program.
 
 ## Limitations
-Speech Recognition: Accuracy depends on the clarity of the user's speech and the quality of the microphone.
-Internet Dependency: Requires an active internet connection for both speech recognition and text-to-speech features.
-Location Search Bug: The variable location in the "find location" feature is undefined. Replace location with search in the URL generation.
+Speech Recognition: Accuracy depends on the clarity of the user's speech and the quality of the microphone.  <br>
+Internet Dependency: Requires an active internet connection for both speech recognition and text-to-speech features.  <br>
+Location Search Bug: The variable location in the "find location" feature is undefined. Replace location with search in the URL generation.  <br>
 
 ## Future Improvements
 - Add more robust error handling and fallback mechanisms.
@@ -32,6 +32,6 @@ Location Search Bug: The variable location in the "find location" feature is und
 ## Acknowledgments
 This project uses the following libraries:
 
-SpeechRecognition for voice input.
-gTTS for text-to-speech conversion.
-playsound for playing audio files.
+- SpeechRecognition for voice input.
+- gTTS for text-to-speech conversion.
+- playsound for playing audio files.
